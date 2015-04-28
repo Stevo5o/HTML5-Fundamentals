@@ -1,13 +1,16 @@
-<!doctype html> replacing JS with details
+<!doctype html>
 <html>
 
 <head>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Details</title>
+    <title>Shiv</title>
     <link rel="stylesheet" href="">
     <style>
-    .red {
+    article {
         color: red;
     }
     </style>
@@ -15,60 +18,11 @@
 
 <body>
     <h1>Stephen O'Connor</h1>
-    <!-- emmet ul>li*3>details>summary{Who eats vegans}>^p{My son} -->
-    <ul>
-        <li>
-            <details>
-                <summary>Who eats vegans</summary>
-                <p>My son</p>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>Who eats vegans</summary>
-                <p>My son</p>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>Who eats vegans</summary>
-                <p>My son</p>
-            </details>
-        </li>
-    </ul>
-    <!-- emmet aside>ul>li*3>h3>{Who eats vegetarians}>^p{My son, Barry & me} -->
-    <aside>
-        <ul>
-            <li>
-                <h3>Who eats vegetarians
-    				<p>My son, Barry & me</p>
-    			</h3>
-            </li>
-            <li>
-                <h3>Who eats vegetarians
-    				<p>My son, Barry & me</p>
-    			</h3>
-            </li>
-            <li>
-                <h3>Who eats vegetarians
-    				<p>My son, Barry & me</p>
-    			</h3>
-            </li>
-        </ul>
-    </aside>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>
-    $('h1').addClass('red');
-    $('h3')
-        .next('p')
-        .hide()
-        .end()
-        .click(function() {
-            $(this)
-                .next('p')
-                .toggle();
-        });
-    </script>
+	<article>
+		<h1>My Blog Post</h1>
+		<p>Vestibulum eu odio. Nam commodo suscipit quam. Sed a libero. Mauris sollicitudin fermentum libero. Curabitur nisi. Aenean vulputate eleifend tellus. Nulla porta dolor. Nunc sed turpis. Aliquam eu nunc.</p>
+		<a href="https://remysharp.com/">Remy Sharp</a>
+	</article>
 </body>
 
 </html>
