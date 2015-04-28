@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="251px" height="290.103" viewBox="0 0 251 290.103" enable-background="new 0 0 251 290.103" xml:space="preserve">
+    <g id="Layer_1">
+        <path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M246.402,73.149" />
+        <path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M125.24,67.406" />
+        <path fill="none" stroke="#000000" stroke-miterlimit="10" d="M125.24,13.648" />
+        <path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M199.332,233.234" />
+        <path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M23.542,126.907" />
+        <path fill="gold" stroke="goldenrod" stroke-miterlimit="10" d="M125.24,288.103l100.659-25.741l20.503-191.212l-0.199-32.82
+		c2.82-18.128-25.477-5.377-16.517,9.631c0.356,0.596,4.852,4.568,4.836,5.098c-0.237,7.955-5.713,1.978-42.014-1.754
+		c-22.156-2.278-42.345-2.212-53.977-9.065c-6.989-4.119,3.595-17.495,4.834-21.526C149.812-0.248,129.67,8.25,125.24,2.584
+		c-4.429,5.666-24.571-2.833-18.125,18.128c1.239,4.032,11.824,17.408,4.834,21.526c-11.632,6.853-31.82,6.787-53.978,9.065
+		c-36.301,3.732-41.776,9.708-42.014,1.754c-0.015-0.53,4.479-4.502,4.835-5.098c8.961-15.008-19.336-27.759-16.516-9.631
+		l-0.199,32.82l20.503,191.212L125.24,288.103z" />
+        <path fill="none" stroke="#000000" stroke-miterlimit="10" d="M4.079,71.149" />
+        <text transform="matrix(0.9287 0 0 1 60.9023 137.7646)" letter-spacing="9.691" textLength="780px" font-weight="bold">
+            <tspan x="1" y="0" fill="#FFFFFF" font-family="'Consolas'" font-size="71.5163">SOC</tspan>
+            <tspan x="-21.8" y="85.819" fill="#FFFFFF" font-family="'Consolas'" font-size="71.5163">KING</tspan>
+        </text>
+        <path fill="none" stroke="#000000" stroke-miterlimit="10" d="M440.908,855.03" />
+    </g>
+    <g id="Layer_2">
+        <g id="XMLID_1_" opacity="0.3">
+            <g>
+                <polygon fill="#F4F4F2" points="124.906,273.763 124.906,60.892 232.146,71.512 214.496,252.563 			" />
+            </g>
+            <g>
+                <polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="124.906,60.892 232.146,71.512 214.496,252.563 			" />
+                <polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="214.496,252.563 124.906,273.763 124.906,60.892 			" />
+            </g>
+        </g>
+    </g>
+</svg>
+<!-- width="62.75px" height="72.53px" -->
+<!-- width="100%" height="100%" -->
+<!-- letter-spacing="9.691" -->
+<!-- font-kerning="inherit" textLength="150px"  -->
+<!-- font-kerning="inherit" textLength="200px"  -->
+<!-- small width="62.75px" height="72.53px" -->
+<!-- orignal size width="251px" height="290.103" -->
