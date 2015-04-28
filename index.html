@@ -1,92 +1,74 @@
-<!doctype html>
+<!doctype html> replacing JS with details
 <html>
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <link rel="stylesheet" href="#">
+    <title>Details</title>
+    <link rel="stylesheet" href="">
+    <style>
+    .red {
+        color: red;
+    }
+    </style>
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <h1>SOCKing Blog</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div role="main">
-            <article>
-                <h1><a href="#"></a></h1>
-                <ul>
-                    <li>Maecenas tempus tellus eget condimentum</li>
-                    <li>Maecenas tempus tellus eget condimentum</li>
-                    <li>Maecenas tempus tellus eget condimentum</li>
-                </ul>
-                <p>Donec venenatis vulputate lorem. Nullam dictum felis eu pede mollis pretium.. Ut non enim eleifend felis pretium feugiat. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nam commodo suscipit quam.</p>
-            </article>
-            <h2>Fusce fermentum odio</h2>
-            <section>
-                <h1 class="">Praesent turpis 1</h1>
-                <p>Proin magna. In auctor lobortis lacus. Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. Donec posuere vulputate arcu.</p>
-            </section>
-            <section>
-                <h1 class="">Praesent turpis 2</h1>
-                <p>Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante vel mi. Integer tincidunt. Quisque rutrum.</p>
-                A list of my favorite types of HTML5 sites
-            </section>
-            <section>
-                <h1 class="">Praesent turpis 3</h1>
-                <p>Vestibulum rutrum, mi nec elementum vehicula.</p>
-                A list of my favorite types of HTML5 sites
-            </section>
-            <aside>
-                <ul>
-                    <li><a href="https://whatwg.org/">WHATWG Community</a></li>
-                    <li><a href="http://mashable.com/2012/07/17/history-html5/">The History of HTML5</a></li>
-                </ul>
-            </aside>
-        </div>
-        <footer>
-            <div class="sect">
-                <h3>Tweets</h3>
-                <ul>
-                    <li>Donec venenatis vulputate lorem.</li>
-                    <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus dolor.</li>
-                </ul>
-            </div>
-            <div class="sect">
-                <h3>Recent Posts</h3>
-                <ul>
-                    <li>Donec venenatis vulputate lorem.</li>
-                    <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus dolor.</li>
-                </ul>
-            </div>
-            <div class="sect">
-                <h3>Categories</h3>
-                <ul>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Personal</a></li>
-                    <li><a href="#">Business</a></li>
-                    <li><a href="#">Web UI Dev</a></li>
-                </ul>
-            </div>
-            <div class="sect">
-                <h3>Contact Information</h3>
-                <ul>
-                    <li>Donec venenatis vulputate lorem.</li>
-                    <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus dolor.</li>
-                </ul>
-            </div>
-            <p>&copy;SOCKing</p>
-        </footer>
-    </div>
+    <h1>Stephen O'Connor</h1>
+    <!-- emmet ul>li*3>details>summary{Who eats vegans}>^p{My son} -->
+    <ul>
+        <li>
+            <details>
+                <summary>Who eats vegans</summary>
+                <p>My son</p>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>Who eats vegans</summary>
+                <p>My son</p>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>Who eats vegans</summary>
+                <p>My son</p>
+            </details>
+        </li>
+    </ul>
+    <!-- emmet aside>ul>li*3>h3>{Who eats vegetarians}>^p{My son, Barry & me} -->
+    <aside>
+        <ul>
+            <li>
+                <h3>Who eats vegetarians
+    				<p>My son, Barry & me</p>
+    			</h3>
+            </li>
+            <li>
+                <h3>Who eats vegetarians
+    				<p>My son, Barry & me</p>
+    			</h3>
+            </li>
+            <li>
+                <h3>Who eats vegetarians
+    				<p>My son, Barry & me</p>
+    			</h3>
+            </li>
+        </ul>
+    </aside>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+    $('h1').addClass('red');
+    $('h3')
+        .next('p')
+        .hide()
+        .end()
+        .click(function() {
+            $(this)
+                .next('p')
+                .toggle();
+        });
+    </script>
 </body>
 
 </html>
