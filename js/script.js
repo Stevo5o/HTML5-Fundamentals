@@ -20,4 +20,11 @@
         }, false);
     }
 
+    // progress bar
+    var p = document.querySelector('progress');
+
+    setInterval(function(){
+    	p.value += 1;
+    }, 50);
+
 })();
