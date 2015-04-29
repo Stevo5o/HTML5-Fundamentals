@@ -29,34 +29,21 @@
 
 <body>
     <h1>Stephen O'Connor</h1>
-    <form>
-        <ul>
-            <li>
-                <label for="number">Pick a number</label>
-                <input type="number">
-            </li>
-            <li>
-                <label for="color">Enter Search</label>
-                <input type="search" results>
-            </li>
-            <li>
-                <label for="color">Pick a color: </label>
-                <input type="color">
-            </li>
-            <li>
-                <label for="URL">Enter URL</label>
-                <input type="url">
-            </li>
-            <li>
-                <label for="Phone">Enter Phone Number</label>
-                <input type="tel" pattern="\d{3}\d{4}">
-            </li>
-            <li>
-                <label for="email">Enter Email</label>
-                <input type="email" required>
-            </li>
-            <input type="submit" value="Enter">
-        </ul>
-    </form>
+    <dl>
+        <dt>Red</dt>
+        <dd>
+            <input type="range" min="0" max="255" id="r" name="r">
+        </dd>
+        <dt>Green</dt>
+        <dd>
+            <input type="range" min="0" max="255" id="g" name="g">
+        </dd>
+        <dt>Blue</dt>
+        <dd>
+            <input type="range" min="0" max="255" id="b" name="b">
+        </dd>
+    </dl>
+</body>
+<script src="/js/script.js"></script>
 
 </html>
