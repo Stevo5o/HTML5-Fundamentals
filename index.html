@@ -5,23 +5,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Modernizer</title>
-    <style>
-    .no-flexbox.container {
-        /*float*/
-    }
-    </style>
-    <script src="http://modernizr.com/downloads/modernizr-latest.js"></script>
+    <script src="js/modernizr.js"></script>
 </head>
 
 <body>
+<h1>This is a Modernizr Test</h1>
     <script>
-    if (Modernizer.localstorage) {
-        // have fun
-    }
+    Modernizr.load({
+        test: Modernizr.localstorage,
+        nope: 'localstorage.js',
+        complete: function(){
+            localStorage.setItem('key', 'value');
+        }
+    });
 
-    if (!!navigator.geolocation) {
-        // have more fun
-    }
     </script>
 </body>
 
