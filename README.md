@@ -1,18 +1,13 @@
-# HTML5-Fundamentals
-| Semantic Elements |
+# HTML5-Fun`damentals` 
+| Semantic Elements | 
 | ----------------- |
-| article           |      
-| aside             |   
-| figcaption        |        
-| figure            |    
-| footer            |    
-| header            |    
-| hgroup            |    
-| mark              |  
-| nav               |
-| section           |         
+| article           | header            |   
+| aside             | hgroup            |   <img style="float: right;" src="/images/HTML5.jpg">
+| figcaption        | mark              |     
+| figure            | nav               |
+| footer            | section           | 
 | time              |   
-
-
+ 
+![HTML5](images/HTML5.jpg)
 
 - HTML5 shiv is inculed in http://modernizr.com/
