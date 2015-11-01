@@ -14,8 +14,10 @@ Semantic Elements
 - hgroup: (HTML Headings Group Element) represents the heading of a section.                
 - time: represents either a time on a 24-hour clock or a precise date in the Gregorian calendar (with optional time and timezone information)  
 - main: represents the main content of  the body of a document or application.
-- details: is used as a disclosure widget from which the user can retrieve additional information 
+- details: is used as a disclosure widget from which the user can retrieve additional information
 - summary: is used as a summary, caption, or legend for the content of a details element   				
 
+Resources 				
+----
 - https://developer.mozilla.org/en/docs/Web/HTML/Element
 - HTML5 shiv is inculed in http://modernizr.com/
