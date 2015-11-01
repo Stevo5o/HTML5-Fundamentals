@@ -1,8 +1,8 @@
 # HTML5-Fun`damentals` :whale2:
-<img align="right" height="200" src="/images/img_sem_elements.gif">
 
 Semantic Elements 				
 ----
+<img align="right" height="200" src="/images/img_sem_elements.gif">
 article | header            
 aside | hgroup             
 figcaption | mark                 
