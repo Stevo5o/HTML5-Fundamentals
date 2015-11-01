@@ -1,13 +1,13 @@
 # HTML5-Fun`damentals` 
-| Semantic Elements | 
-| ----------------- |
+| Semantic Elements 					| 
+| ------------------------------------- |
 | article           | header            |   
-| aside             | hgroup            |   <img style="float: right;" src="/images/HTML5.jpg">
+| aside             | hgroup            |   
 | figcaption        | mark              |     
 | figure            | nav               |
 | footer            | section           | 
-| time              |   
+| time              |   				|
  
-![HTML5](images/HTML5.jpg)
+![HTML5](images/img_sem_elements.gif)
 
 - HTML5 shiv is inculed in http://modernizr.com/
