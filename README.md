@@ -1,6 +1,6 @@
 # HTML5-Fun`damentals` 
-| Semantic Elements 					| 
-| ------------------------------------- |
+| Semantic Elements |					| 
+| ------------------|------------------ |
 | article           | header            |   
 | aside             | hgroup            |   
 | figcaption        | mark              |     
