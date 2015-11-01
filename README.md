@@ -1,7 +1,7 @@
 # HTML5-Fun`damentals` :whale2:
 <img style="float: right;" src="/images/img_sem_elements.gif">
 
-| Semantic Elements 					| 
+| Semantic Elements |					| 
 | ------------------|------------------ |
 | article           | header            |   
 | aside             | hgroup            |   
