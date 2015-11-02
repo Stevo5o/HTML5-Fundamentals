@@ -1,4 +1,3 @@
-;
 (function() {
     var heading;
 
@@ -40,7 +39,7 @@
     	// browser supports cavas
     }
 
-    if(!!document.createElement('video').can playType) {
+    if(!!document.createElement('video').canPlayType) {
 
     }
 
@@ -52,5 +51,7 @@
     	}
     }
 
-    if (!!navigator.geolocation) alert('track me';)
+    if (!!navigator.geolocation) alert('track me');    
+
 })();
+
